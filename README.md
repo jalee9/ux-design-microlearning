@@ -42,6 +42,23 @@ Compare how the two versions feel to use.
 
 ---
 
+## Teaching Demonstration Resources
+
+This project was developed as both a UX microlearning experience and an instructional resource for web development students. The repository also includes the materials used to support the accompanying teaching demonstration.
+
+### Presentation
+
+[View the PowerPoint Presentation](./presentation/Designing-for-the-User.pptx)
+
+The presentation guides learners through an interactive comparison of the Original and Redesigned experiences and uses the live websites to explore user-centered design.
+
+### AI-Assisted Presentation Design
+
+[View the Presentation Development Prompt](./presentation/prompts.md)
+
+Microsoft Copilot in PowerPoint was used to support the initial visual design and layout of the presentation. The prompt and a brief explanation of how the AI-generated design was refined are included for transparency and as a reusable instructional resource.
+
+---
 ## The UX Lens
 
 A useful way to evaluate an interface is to consider the experience from the user's perspective:
