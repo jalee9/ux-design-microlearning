@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Registration Confirmed | Faculty Development</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="index.html">Faculty Development</a><nav aria-label="Primary navigation"><a href="workshops.html">Workshops</a><a href="index.html#resources">Resources</a><a href="index.html#contact">Contact</a></nav></div></header>
+<main class="container page-narrow confirmation-panel">
+  <!-- UX TEACHING NOTE:
+       A success message should clearly state the outcome before asking the user to
+       interpret details. The user should not have to wonder whether registration worked. -->
+  <p class="success-mark" aria-hidden="true">✓</p>
+  <p class="eyebrow">Registration Confirmed</p>
+  <h1>You're registered!</h1>
+  <div class="confirmation-card">
+    <h2>Creating Engaging Online Discussions</h2>
+    <dl class="details-list"><div><dt>Date</dt><dd>Wednesday, December 16</dd></div><div><dt>Time</dt><dd>2:00–3:30 PM</dd></div><div><dt>Location</dt><dd>Online via Microsoft Teams</dd></div></dl>
+  </div>
+  <!-- UX TEACHING NOTE: This copy anticipates the user's next question: "How do I attend?" -->
+  <p>A confirmation email with your Microsoft Teams link has been sent to <strong>jlee@example.edu</strong>.</p>
+  <div class="confirmation-actions"><button class="button button-primary" type="button" id="calendar-button">Add to Calendar</button><a class="secondary-link" href="manage.html">Manage Registration</a></div>
+  <p id="calendar-message" class="status-message" role="status" aria-live="polite"></p>
+</main>
+<footer><div class="container"><p><strong>Faculty Development</strong></p></div></footer>
+<script src="js/app.js"></script>
+</body></html>
