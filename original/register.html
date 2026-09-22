@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop Registration | Faculty Development</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="index.html">Faculty Development</a><nav aria-label="Primary navigation"><a href="workshops.html">Workshops</a><a href="index.html#resources">Resources</a><a href="index.html#contact">Contact</a></nav></div></header>
+<main class="container page-narrow">
+  <p class="eyebrow">Workshop Registration</p>
+  <h1>Creating Engaging Online Discussions</h1>
+  <p class="event-summary">December 16 · 2:00–3:30 PM · Online via Microsoft Teams</p>
+
+  <!-- The form is intentionally reasonable in both versions. The lesson is not
+       "make everything different." Good redesign focuses on actual user friction. -->
+  <form id="registration-form" action="confirmation.html">
+    <div class="form-row"><label for="first-name">First name</label><input id="first-name" name="firstName" type="text" value="Jennifer" required></div>
+    <div class="form-row"><label for="last-name">Last name</label><input id="last-name" name="lastName" type="text" value="Lee" required></div>
+    <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" value="jlee@example.edu" required></div>
+    <div class="form-row"><label for="department">Department</label><input id="department" name="department" type="text" value="Information Technology"></div>
+    <button class="button form-submit" type="submit">Complete Registration</button>
+  </form>
+</main>
+<footer><div class="container"><p><strong>Faculty Development</strong></p></div></footer>
+<script src="js/app.js"></script>
+</body></html>
